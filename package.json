@@ -1,0 +1,24 @@
+{
+  "name": "@fetchdrones/enforce",
+  "version": "1.0.0",
+  "description": "compose function that reduces to a single boolean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parallaxisjones/enforce.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "functional"
+  ],
+  "author": "Parker Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parallaxisjones/enforce.js/issues"
+  },
+  "homepage": "https://github.com/parallaxisjones/enforce.js#readme"
+}
