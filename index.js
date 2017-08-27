@@ -10,7 +10,7 @@ export const bindState = (collection = [], state = {}) => {
     fn => typeof fn === 'function' ? fn.bind(state) : (function(){ return true }).bind(state)
   );
 }
-const combineState = (states = [], defaultState = {}) => {
+export const combineState = (states = [], defaultState = {}) => {
   return states.reduce((state, next) => next && isObject(next) && Object.assign({}, state, next), defaultState)
 }
 export const makeStack = (collection) => Array.isArray(collection) ? collection : Object.values({
